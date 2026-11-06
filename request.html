@@ -4,21 +4,56 @@
   </head>
   <body>
     <h1>Request an Item</h1>
-    <h2>Article type(select one)</h2>
-      <p>[TAGS FOR TYPES OF CLOTHING, drop down]</p>
+    <h2>Article type (select one)</h2>
+      <select>
+        <option>Select an option</option>
+        <option>Shirt</option>
+        <option>Pants</option>
+        <option>Socks</option>
+        <option>Jacket</option>
+        <option>Other</option>
+      </select>
     <h2>Colors (select at least one)</h2>
-      <p>[TAGS FOR COLORS, drop down]</p>
+      <select>
+        <option>Select an option</option>
+        <option>Black</option>
+        <option>White</option>
+        <option>Blue</option>
+        <option>Red</option>
+        <option>Green</option>
+        <option>Other</option>
+      </select>
     <h2>Pattern (select at least one)</h2>
-      <p>[TAGS FOR PATTERNS, drop down]</p>
+      <select>
+        <option>Select an option</option>
+        <option>Striped</option>
+        <option>Plaid</option>
+        <option>Solid</option>
+        <option>Floral</option>
+        <option>Other</option>
+      </select>
     <h2>Features:</h2>
-      <p>[TAGS FOR OTHER DESCRIPTIVE FEATURES, drop down, </p>
+      <input type="checkbox" id="button" name="features" value="button">
+      <label for="button">Button</label>
+      <input type="checkbox" id="zipper" name="features" value="zipper">
+      <label for="zipper">Zipper</label>
+      <input type="checkbox" id="pocket" name="features" value="pocket">
+      <label for="pocket">Pocket</label>
+      <input type="checkbox" id="other" name="features" value="other">
+      <label for="other">Other</label>
+
     <h2>Size:</h2>
-      <p>multiple buttons that select size, like a list of buttons</p>
+      <input type="text" placeholder="Enter size">
+
+
     <h2>Brand (optional):</h2>
-      <p>typebox for brand</p>
+      <input type="text" placeholder="Enter brand name">
     <h2>Written Description</h2>
-      <p>textbox for written description</p>
-    <button>HOME</button>
-    <button>submit</button>
+      <input type="text" placeholder="Enter a description of the item">
+
+    <br>
+    <a href="main.html">Return to Home</a>
+    <br>
+    <a href="submit.html">Submit</a>
     </body>
 </html>
